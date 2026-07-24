@@ -8,7 +8,8 @@
     <FrameLayout
         android:id="@+id/titleLayout"
         android:layout_width="match_parent"
-        android:layout_height="70dp">
+        android:layout_height="95dp"
+        android:paddingTop="25dp">
 
         <TextView
             android:id="@+id/placeName"
@@ -21,6 +22,14 @@
             android:singleLine="true"
             android:textColor="#fff"
             android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/navBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/ic_home" />
 
     </FrameLayout>
 
