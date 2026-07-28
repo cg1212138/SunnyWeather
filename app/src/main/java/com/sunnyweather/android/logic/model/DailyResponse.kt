@@ -1,6 +1,5 @@
 package com.sunnyweather.android.logic.model
 
-import android.health.connect.datatypes.units.Temperature
 import com.google.gson.annotations.SerializedName
 import java.util.Date
 
